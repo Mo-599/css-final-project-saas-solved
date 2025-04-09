@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/default.css" />
+    <script src="./JS/scripts.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <title>Saas company</title>
   </head>
   <body>
     <div class="nav-container">
       <span><img src="./assets/logos/logo-front.svg" alt="logo-front" /></span>
       <div class="nav-bar">
+        <button
+          class="navbar-toggler"
+          aria-expanded="false"
+          aria-controls="navbarDropdown"
+        >
+          <span>&#9776;</span>
+        </button>
         <ul>
           <li class="nav-link"><a href="#" clas="nav-home">Home</a></li>
           <li class="nav-link"><a href="#" clas="nav-features">Features</a></li>
@@ -26,7 +38,7 @@
         <h2>Empowering teams with the freedom</h2>
         <p>Own the unlimited power of the web development</p>
         <div class="hero-links">
-          <button class="hero-btn btn">Play Video</button>
+          <button class="hero-btn btn"><span>&#9205;</span>Play Video</button>
           <a href="#" class="learn-more">Learn More</a>
         </div>
       </div>
@@ -112,7 +124,9 @@
               </article>
             </div>
             <div class="plan-footer">
-              <button class="plan-btn btn">Play Video</button>
+              <button class="plan-btn btn">
+                <span>&#9205;</span>Play Video
+              </button>
               <span>
                 <p>No credit card required.</p>
               </span>
@@ -127,7 +141,7 @@
                       src="./assets/images/components.svg"
                       alt="a small puzzel"
                   /></span>
-                  <h3>Hundereds of components</h3>
+                  <h3>Hundreds of components</h3>
                   <p>
                     Achieve maximum productivity with minimum effort with Front
                     and create robust Limitless products.
@@ -256,7 +270,6 @@
             </div>
             <div class="privacy-links">
               <a href="#">View privacy policy</a>
-              <a href="#">View privacy policy</a>
             </div>
             <div class="form-submit">
               <input type="submit" value="Submit Form" class="form-btn btn" />
@@ -270,11 +283,17 @@
         <span
           ><img src="./assets/logos/logo-front.svg" alt="logo of Front"
         /></span>
-        <a href="#">153 Williamson Plaza, Maggieberg</a>
-        <a href="#">+1 (062) 109-9222</a>
+        <a href="#"
+          ><i class="fas fa-location-arrow"></i>153 Williamson Plaza,
+          Maggieberg</a
+        >
+        <a id="number" href="#"
+          ><i class="fas fa-phone"></i>+1 (062) 109-9222</a
+        >
       </div>
       <div class="footer-right">
         <div class="company-footer">
+          <h3>Company</h3>
           <a href="#" class="about-company">About</a>
           <a href="#" class="career-company"
             >Career <span>We're hiring</span></a
@@ -284,12 +303,14 @@
           <a href="#" class="hire-us-company">Hire Us</a>
         </div>
         <div class="features-footer">
+          <h3>Features</h3>
           <a href="#" class="press-features">Press</a>
           <a href="#" class="release-notes-features">Release Notes</a>
           <a href="#" class="intergrations-features">Intergrations</a>
           <a href="#" class="pricing-features">Pricing</a>
         </div>
         <div class="documentation-footer">
+          <h3>Documentation</h3>
           <a href="#" class="support-documentation">Support</a>
           <a href="#" class="docs-documentation">Docs</a>
           <a href="#" class="status-documentation">Status</a>
@@ -297,8 +318,11 @@
           <a href="#" class="tech-documentation">Tech Requirements</a>
         </div>
         <div class="resources-footer">
-          <a href="#" class="help-resources">Help</a>
-          <a href="#" class="your-resources">Your Account</a>
+          <h3>Resources</h3>
+          <a href="#" class="help-resources"><i class="fas fa-info"></i>Help</a>
+          <a href="#" class="your-resources"
+            ><i class="fas fa-user"></i>Your Account</a
+          >
         </div>
       </div>
     </div>
