@@ -177,7 +177,7 @@ img {
   }
   .orbs-container {
     padding-left: 25rem;
-    scale: 1.2;
+    margin: auto;
   }
   .asana,
   .calendar,
@@ -256,10 +256,11 @@ img {
     padding: var(--size-40) var(--size-50);
   }
   .footer-right {
-    gap: var(--size-30) var(--size-100);
-    flex-wrap: wrap;
     padding-top: var(--size-30);
-    margin-left: var(--size-100);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    gap: var(--size-50);
   }
   .footer-left > a:hover,
   .company-footer > a:hover,
@@ -289,10 +290,7 @@ img {
     width: auto;
     flex-direction: row;
     padding: var(--size-50) var(--size-100);
-    scale: 1.5;
-  }
-  .container:nth-child(5) {
-    padding-left: 7.05rem;
+    margin: auto;
   }
   .line {
     display: none;
@@ -350,6 +348,7 @@ img {
     padding: 0;
     gap: 4.688rem;
     margin: 0;
+    display: flex;
   }
   .career-company {
     justify-content: center;

@@ -67,8 +67,13 @@
   border-color: var(--font-color-blue);
 }
 
-.hero-section {
+.hero-wrapper {
   background-image: url("../assets/bg/background-top.svg");
+}
+
+.hero-section {
+  margin: auto;
+  max-width: 75rem;
   height: 29.5rem;
   display: flex;
   justify-content: space-between;
@@ -411,10 +416,14 @@
   padding: 0.313rem 0.625rem 1.125rem;
 }
 
-.hire-us-section {
+.hire-us-wrapper {
   background-color: var(--font-color-dark);
+}
+
+.hire-us-section {
+  max-width: 75rem;
+  margin: var(--size-50) auto;
   padding: var(--size-20);
-  margin-top: var(--size-50);
   display: flex;
   gap: var(--size-20);
   justify-content: space-around;

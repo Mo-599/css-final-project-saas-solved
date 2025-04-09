@@ -33,37 +33,39 @@
         </ul>
       </div>
     </div>
-    <div class="hero-section">
-      <div class="hero-header">
-        <h2>Empowering teams with the freedom</h2>
-        <p>Own the unlimited power of the web development</p>
-        <div class="hero-links">
-          <button class="hero-btn btn"><span>&#9205;</span>Play Video</button>
-          <a href="#" class="learn-more">Learn More</a>
+    <div class="hero-wrapper">
+      <div class="hero-section">
+        <div class="hero-header">
+          <h2>Empowering teams with the freedom</h2>
+          <p>Own the unlimited power of the web development</p>
+          <div class="hero-links">
+            <button class="hero-btn btn"><span>&#9205;</span>Play Video</button>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
         </div>
-      </div>
-      <div class="orbs-container">
-        <span class="asana"
-          ><img src="./assets/logos/asana.png" alt="asana-logo"
-        /></span>
-        <span class="calendar"
-          ><img src="./assets/logos/calendar.png" alt="calendar-logo"
-        /></span>
-        <span class="weave"
-          ><img src="./assets/logos/weave.png" alt="weave-logo"
-        /></span>
-        <span class="paypal"
-          ><img src="./assets/logos/paypal.jpg" alt="paypal-logo"
-        /></span>
-        <span class="attlasian"
-          ><img src="./assets/logos/atlassian.png" alt="attlasian-logo"
-        /></span>
-        <span class="google-ads"
-          ><img src="./assets/logos/google-ads.png" alt="google-ads"
-        /></span>
-        <span class="google"
-          ><img src="./assets/logos/google.png" alt="google-logo"
-        /></span>
+        <div class="orbs-container">
+          <span class="asana"
+            ><img src="./assets/logos/asana.png" alt="asana-logo"
+          /></span>
+          <span class="calendar"
+            ><img src="./assets/logos/calendar.png" alt="calendar-logo"
+          /></span>
+          <span class="weave"
+            ><img src="./assets/logos/weave.png" alt="weave-logo"
+          /></span>
+          <span class="paypal"
+            ><img src="./assets/logos/paypal.jpg" alt="paypal-logo"
+          /></span>
+          <span class="attlasian"
+            ><img src="./assets/logos/atlassian.png" alt="attlasian-logo"
+          /></span>
+          <span class="google-ads"
+            ><img src="./assets/logos/google-ads.png" alt="google-ads"
+          /></span>
+          <span class="google"
+            ><img src="./assets/logos/google.png" alt="google-logo"
+          /></span>
+        </div>
       </div>
     </div>
     <div class="why-front-section">
@@ -196,85 +198,87 @@
         </div>
       </div>
     </div>
-    <div class="hire-us-section">
-      <div class="left-part">
-        <div class="top">
-          <div class="hire-us-title">
-            <div class="title">
-              <h3>Hire Us</h3>
-              <p>Whatever your goal - we will get you there</p>
+    <div class="hire-us-wrapper">
+      <div class="hire-us-section">
+        <div class="left-part">
+          <div class="top">
+            <div class="hire-us-title">
+              <div class="title">
+                <h3>Hire Us</h3>
+                <p>Whatever your goal - we will get you there</p>
+              </div>
+              <div class="hire-us-line"></div>
+              <article>
+                "I love front! I love the ease of use, I love the fact that I
+                have total creative freedom..."
+              </article>
             </div>
-            <div class="hire-us-line"></div>
-            <article>
-              "I love front! I love the ease of use, I love the fact that I have
-              total creative freedom..."
-            </article>
+          </div>
+          <div class="bottom">
+            <div class="person">
+              <h3>Charlotte Moore</h3>
+              <p>Head of Commercials, Stack</p>
+            </div>
+            <div class="person-image">
+              <img src="./assets/images/man_one.jpg" alt="charlotte" />
+            </div>
           </div>
         </div>
-        <div class="bottom">
-          <div class="person">
-            <h3>Charlotte Moore</h3>
-            <p>Head of Commercials, Stack</p>
+        <div class="right-part">
+          <div class="form-area">
+            <form class="form" action="#">
+              <div class="form-header">
+                <h3>
+                  Fill out the form and we'll be in touch as soon as possible
+                </h3>
+              </div>
+              <div class="form-name">
+                <input type="text" placeholder="First name" id="first-name" />
+                <input type="text" placeholder="Last name" id="last-name" />
+              </div>
+              <div class="form-email">
+                <input type="email" placeholder="Email" id="email" />
+              </div>
+              <div class="form-select">
+                <select name="budget" id="budget-form" required>
+                  <option value="Budget" selected disabled>Budget</option>
+                  <option value="less than 10k">Less than 10K</option>
+                  <option value="10k-20k">10K-20K</option>
+                  <option value="30k-40k">30K-40K</option>
+                  <option value="40k+">40K+</option>
+                </select>
+                <select name="country" id="country-form" required>
+                  <option value="country" selected disabled>Country</option>
+                  <option value="US">United States</option>
+                  <option value="CA">Canada</option>
+                  <option value="MX">Mexico</option>
+                  <option value="GB">United Kingdom</option>
+                  <option value="FR">France</option>
+                </select>
+              </div>
+              <div class="textarea-form">
+                <textarea
+                  name="textarea-form"
+                  id="textarea-form"
+                  placeholder="Tell us more about your project, needs, and timeline, please..."
+                  cols="40"
+                ></textarea>
+              </div>
+              <div class="consent">
+                <label for="checkbox">
+                  <input type="checkbox" name="checkbox" id="checkbox" />
+                  Yes, I'd like to recieve occasional marketing emails from
+                  Front. I have the right to opt out at any time.
+                </label>
+              </div>
+              <div class="privacy-links">
+                <a href="#">View privacy policy</a>
+              </div>
+              <div class="form-submit">
+                <input type="submit" value="Submit Form" class="form-btn btn" />
+              </div>
+            </form>
           </div>
-          <div class="person-image">
-            <img src="./assets/images/man_one.jpg" alt="charlotte" />
-          </div>
-        </div>
-      </div>
-      <div class="right-part">
-        <div class="form-area">
-          <form class="form" action="#">
-            <div class="form-header">
-              <h3>
-                Fill out the form and we'll be in touch as soon as possible
-              </h3>
-            </div>
-            <div class="form-name">
-              <input type="text" placeholder="First name" id="first-name" />
-              <input type="text" placeholder="Last name" id="last-name" />
-            </div>
-            <div class="form-email">
-              <input type="email" placeholder="Email" id="email" />
-            </div>
-            <div class="form-select">
-              <select name="budget" id="budget-form" required>
-                <option value="Budget" selected disabled>Budget</option>
-                <option value="less than 10k">Less than 10K</option>
-                <option value="10k-20k">10K-20K</option>
-                <option value="30k-40k">30K-40K</option>
-                <option value="40k+">40K+</option>
-              </select>
-              <select name="country" id="country-form" required>
-                <option value="country" selected disabled>Country</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="MX">Mexico</option>
-                <option value="GB">United Kingdom</option>
-                <option value="FR">France</option>
-              </select>
-            </div>
-            <div class="textarea-form">
-              <textarea
-                name="textarea-form"
-                id="textarea-form"
-                placeholder="Tell us more about your project, needs, and timeline, please..."
-                cols="40"
-              ></textarea>
-            </div>
-            <div class="consent">
-              <label for="checkbox">
-                <input type="checkbox" name="checkbox" id="checkbox" />
-                Yes, I'd like to recieve occasional marketing emails from Front.
-                I have the right to opt out at any time.
-              </label>
-            </div>
-            <div class="privacy-links">
-              <a href="#">View privacy policy</a>
-            </div>
-            <div class="form-submit">
-              <input type="submit" value="Submit Form" class="form-btn btn" />
-            </div>
-          </form>
         </div>
       </div>
     </div>
