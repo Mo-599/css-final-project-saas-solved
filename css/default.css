@@ -281,16 +281,39 @@ img {
 }
 
 @media (max-width: 767px) {
+  .hero-wrapper {
+    height: 51rem;
+  }
+  .asana {
+    right: 11rem;
+    top: var(--size-50);
+  }
+  .calendar {
+    right: 11rem;
+    top: 12.25rem;
+  }
+  .weave {
+    right: 14.5rem;
+    top: 1.25rem;
+  }
+  .paypal {
+    right: 24rem;
+    top: -4.75rem;
+  }
+  .google-ads {
+    top: -5.75rem;
+  }
   .bullet-list {
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
+    text-align: left;
   }
   .container {
     width: auto;
-    flex-direction: row;
-    padding: var(--size-50) var(--size-100);
-    margin: auto;
+    display: -webkit-box;
+    padding: var(--size-50) 0;
+    margin-right: auto;
   }
   .line {
     display: none;
